@@ -133,14 +133,14 @@ See the full [Skill + CLI documentation](https://docs.firecrawl.dev/sdks/cli) fo
 
 ## Feature Overview
 
-| Feature | Description |
-|---------|-------------|
-| [**Scrape**](#scraping) | Convert any URL to markdown, HTML, screenshots, or structured JSON |
-| [**Search**](#search) | Search the web and get full page content from results |
-| [**Browse**](#browse) | Let agents safely interact with the web |
-| [**Map**](#map) | Discover all URLs on a website instantly |
-| [**Crawl**](#crawling) | Scrape all URLs of a website with a single request |
-| [**Agent**](#agent) | Automated data gathering, just describe what you need |
+| Feature         | Description                                                 |
+|-----------------|-------------------------------------------------------------|
+| [**Scrape**](#scraping)     | Convert any URL to markdown, HTML, screenshots, or structured JSON |
+| [**Search**](#search)       | Search the web and get full page content from results       |
+| [**Browse**](#browse)       | Let agents safely interact with the web                      |
+| [**Map**](#map)             | Discover all URLs on a website instantly                     |
+| [**Crawl**](#crawling)      | Scrape all URLs of a website with a single request          |
+| [**Agent**](#agent)         | Automated data gathering, just describe what you need        |
 ---
 
 ## Scrape
@@ -435,10 +435,10 @@ result = app.agent(
 
 Choose between two models based on your needs:
 
-| Model | Cost | Best For |
-|-------|------|----------|
-| `spark-1-mini` (default) | 60% cheaper | Most tasks |
-| `spark-1-pro` | Standard | Complex research, critical extraction |
+| Model                | Cost         | Best for                                   |
+|----------------------|--------------|--------------------------------------------|
+| `spark-1-mini` (default) | 60% cheaper  | Most tasks                                 |
+| `spark-1-pro`       | Standard     | Complex research, critical extraction      |
 ```python
 result = app.agent(
     prompt="Compare enterprise features across Firecrawl, Apify, and ScrapingBee",
